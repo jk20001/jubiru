@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[Gyms]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(150) NOT NULL, 
+    [Adress] NTEXT NOT NULL, 
+    [Mail] NCHAR(50) NOT NULL, 
+    [Password] NCHAR(45) NOT NULL, 
+    [Phone] NCHAR(10) NOT NULL, 
+    [INN] NCHAR(12) NULL, 
+    [Account] NCHAR(20) NULL, 
+    [OfName] NCHAR(150) NULL, 
+    [OGRN] NCHAR(13) NULL, 
+    [BIK] NCHAR(9) NULL, 
+    [Metro] NCHAR(50) NULL, 
+    [MetroTime] NCHAR(25) NULL, 
+    [Benefits] NCHAR(350) NULL, 
+    [Description] NTEXT NULL, 
+    [ArriveDesc] NTEXT NULL, 
+    [GeoW] NCHAR(35) NULL, 
+    [GeoL] NCHAR(35) NULL, 
+    [UrAdress] NTEXT NULL, 
+    [Photo] NTEXT NULL, 
+    [Active] BIT NULL, 
+    [confirmed] BIT NULL
+)
